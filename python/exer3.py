@@ -9,7 +9,7 @@ def flames(name1, name2):
     results = ["FRIENDS", "LOVE", "ACQUAINTANCES", "MARRIAGE", "ENEMY", "SIBLINGS"]
 
     print(name1, "---->", n1, " = " , results[n1%len(results)-1])
-    print(name2, "----> ", n2, " = " , results[n2%len(results)-1])
+    print(name2, "---->", n2, " = " , results[n2%len(results)-1])
     
     counter = n1 + n2
     print("Total: ",n1," + ",n2," = ",counter)
