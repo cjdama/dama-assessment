@@ -1,6 +1,6 @@
 print("-----F L A M E S-----")
-name1 = input('Enter your name: ').lower()
-name2 = input('Enter your partner\'s name: ').lower()
+name1 = input('Enter your name: ').lower().replace(" ","").replace(".","")
+name2 = input('Enter your partner\'s name: ').lower().replace(" ","").replace(".","")
 
 def flames(name1, name2):
     n1 = sum(letter in name2 for letter in name1)
